@@ -8,7 +8,6 @@ public class Libro
     public int AnioPublicacion { get; private set; }
     public int Stock { get; private set; }
 
-    // Constructor sin parámetros requerido por EF Core
     private Libro() { }
 
     public Libro(string isbn, string titulo, string autor, int anioPublicacion, int stock)
